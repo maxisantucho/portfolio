@@ -171,7 +171,7 @@ body::-webkit-scrollbar-thumb {
     padding: 50px 20px 120px;
 }
 
-.title {
+.services-title {
     font-size: 50px;
     text-align: center;
     padding: 20px;
@@ -549,11 +549,14 @@ body::-webkit-scrollbar-thumb {
     .text-2 {
         font-size: 48px;
     }
+    .about {
+        padding: 60px 0;
+    }
     .about h2, .proyects h2 {
         font-size: 35px;
         padding: 5px;
     }
-    .title {
+    .services-title {
         font-size: 38px;
     }
     .tech-title{
