@@ -83,14 +83,14 @@ const cargarSection = (ent, obs) => {
 
 const observador = new IntersectionObserver(cargarSection, {
     root: null,
-    rootMargin: "0px",
+    rootMargin: "30% 0px",
     threshold: 0.5
 });
 
 observador.observe(navMenu);
 observador.observe(homeContainer);
-observador.observe(socialMedia);
 observador.observe(tech);
+observador.observe(socialMedia);
 
 
 const hContainer = document.querySelector(".card-container");
@@ -107,7 +107,7 @@ const observerLight2 = new IntersectionObserver( en => {
 }, {
   root: null,
   rootMargin: "0px",
-  threshold: 0.5
+  threshold: 0.3
 })
 
 observerLight2.observe(hContainer);
